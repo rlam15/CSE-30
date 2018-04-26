@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww16780\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 Pseudocode Lab_04\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+combineString.cpp\
+\
+combineStr (string randomWord, int printTimes) //This function takes in a string and a number\
+	combinedWord = randomWord; //combined word will be the end result but it have randomWord\
+	for (printTimes); //Depending on how many times asked to print, do the below action\
+	combinedWord = combinedWord + randomWord; //Add random word again to the combined \
+	\
+	return combinedWord; //After everything return the value to main\
+\
+sortArray1.cpp\
+\
+void sortArr(int arrayBox[], int sizeArray, bool choice)  // Function won\'92t return anything because we\'92re overwriting the array within this function\
+	// The int arrayBox[] will contain all the values within the array\
+	// The sizeArray will tell the size\
+	// The choice will determine whether the user wants it to be ascending or descending.\
+	// Running through the two for loops, the ascending or descending algorithm will be executed.\
+\
+sortArray2.cpp\
+\
+sort(int arrayBoxes[], arraySize, bool choice) // parameter takes in an array, a size, and a boolean.\
+	for(i<size)\
+		if(i>=0)\
+		if(flag ? arr[i]<arr[i-1] : arr[i]>arr[i-1])\
+			swap(arr[i],arr[i-1]\
+			i-=2\
+\
+\
+}

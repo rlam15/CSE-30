@@ -1,0 +1,57 @@
+int checkArray(string array, int size of array)
+{
+	initialize boolean variables ascending and descending;
+	initialize integers ascError and descError and set them to 0;
+	nested for loop of i and j
+		if value of index i is less than value of index j
+			then value of ascending is true;
+		else
+			then ascError counts up by 1;
+		
+	if ascError was more than 0
+		then ascending is false;
+	
+	nested for loop of i and j
+		if values of index i is more than value of index j
+			then value of descending is true;
+		else
+			then descError counts up by 1;
+		
+	if descError was more than 0
+		then descending is false;
+		
+	initialize integer answer and set it to 0;
+	if ascending is true
+		then answer is 1;
+	else if descending is true
+		then answer is -1;
+	else
+		answer is 0;
+		
+	return answer;
+}
+
+int binarySearchR(string array, string search value, integer max)
+{
+	initialize integers min and mid and set them to 0;
+	while min is less than or equal to max
+		variable mid equals (min plus max) divided by 2;
+		if value of index of mid equals variable value
+			then return value of mid + 1;
+		else if value of index of mid is less than value
+			then max equals variable mid minus 1;
+		else 
+			variable min equals variable mid plus 1;
+		
+	return -1;
+}
+
+int binarySearchL(string array, string value, integer max)
+{
+	for loop with max limit
+		if value of index i equals value
+			then return value of i plus 1;
+	
+	else return -1;
+
+}
